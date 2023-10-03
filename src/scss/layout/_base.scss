@@ -1,0 +1,36 @@
+html, body {
+	height: 100%;
+}
+body {
+	font-family: var(--ff);
+	padding: 32px;
+	@include mobile {
+		padding: 15px;
+	}
+}
+.container {
+	max-width: 1240px;
+	margin-inline: auto;
+}
+.main {
+	padding: 20px;
+}
+.top {
+	font: var(--Subtitle_1);
+	color: var(--Outline-dark);
+	text-transform: uppercase;
+	margin-bottom: 4px;	
+}
+.title {
+	font: var(--H2);
+	color: var(--Text-Primary);
+	margin-bottom: 59px;
+	margin-top: 0;
+
+	@include mobile {
+		font: var(--H2-mobile);
+		margin-bottom: 20px;
+	}
+}
+
+

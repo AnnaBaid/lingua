@@ -1,0 +1,32 @@
+// vendors
+@import 'vendors/reset';
+@import 'vendors/carousel/owl.carousel';
+@import 'vendors/carousel/owl.theme.default';
+
+// utils
+@import 'utils/vars';
+@import 'utils/mixins';
+@import 'utils/fonts';
+
+// layout
+@import 'layout/base';
+@import 'layout/scroll';
+
+@import 'layout/grid';
+
+// components
+
+@import 'components/btn';
+
+
+@import 'components/header';
+@import 'components/footer';
+
+
+@import 'components/welcome';
+@import 'components/values';
+@import 'components/teacher';
+@import 'components/student';
+@import 'components/questions';
+@import 'components/email';
+

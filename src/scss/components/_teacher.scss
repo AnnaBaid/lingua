@@ -1,0 +1,45 @@
+.teacher {
+    margin-top: 240px;
+    @include tablet-small {
+        margin-top: 50px;
+    }
+    &__info {}
+
+    &__desc {}
+}
+
+.teacher-item {
+
+    &__img {
+        img {
+            border-radius: 60px;
+            max-width: 366px;
+            max-height: 417px;
+        }
+    }
+
+    &__name {
+        font: var(--H5);
+        color: var(--Text-Primary);
+        margin-bottom: 16px;
+        @include tablet-small {
+                font: var(--H5-mobile);
+            }
+    }
+
+    &__text {
+        display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 12px;
+            color: var(--Body-text);
+            font: var(--Body_text_18);
+            margin-top: 0;
+        img {
+            max-width: 34px;
+            max-height: 34px;
+            object-fit: fill;
+        
+        }
+    }
+}
